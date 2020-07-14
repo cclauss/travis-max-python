@@ -4,6 +4,12 @@ language: python
 jobs:
   allow_failures:
     - python: 3.8.4
+    - python: 2.7.15
+      dist: xenial
+    - python: 2.7.16
+      dist: xenial
+    - python: 2.7.17
+      dist: xenial
   include:
     - python: 2.7.15
     - python: 2.7.16

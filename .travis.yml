@@ -1,5 +1,6 @@
 os: linux
 dist: focal
+language: python
 jobs:
   include:
     - python: 2.7.15

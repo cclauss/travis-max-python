@@ -1,0 +1,26 @@
+os: linux
+dist: focal
+jobs:
+  include:
+    - python: 2.7.15
+    - python: 2.7.16
+    - python: 2.7.17
+    - python: 2.7.18
+    - python: 3.8.2
+    - python: 3.8.3
+    - python: 3.8.4
+    
+    - python: 2.7.15
+      dist: xenial
+    - python: 2.7.16
+      dist: xenial
+    - python: 2.7.17
+      dist: xenial
+    - python: 2.7.18
+      dist: xenial
+    - python: 3.8.2
+      dist: xenial
+    - python: 3.8.3
+      dist: xenial
+    - python: 3.8.4
+      dist: xenial
